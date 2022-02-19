@@ -102,15 +102,4 @@ int ReversedBinarySearch(int low, int high, int value, int arr[])
 
         sort (arr2 , arr2 + n);
 
-        for (int i = 1; i < n - 1; i++)
-        {
-            if (arr1[i] == arr2[i])
-            {
-                cnt[t]++;
-            }
-        }
-    }
 
-    for (long long t = 0; t < T; t++)
-        cout << cnt[t] << '\n';
-*/

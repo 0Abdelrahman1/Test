@@ -114,5 +114,4 @@ int ReversedBinarySearch(int low, int high, int value, int arr[])
     for (long long t = 0; t < T; t++)
         cout << cnt[t] << '\n';
 */
-asd
-\
+
